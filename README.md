@@ -1,1 +1,1 @@
-# holberton-system_engineering-devops
+Shell basic scripting from Day 1 at Holberton school
