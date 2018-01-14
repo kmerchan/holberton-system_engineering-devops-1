@@ -1,2 +1,2 @@
-Check your code?  Done?#!/bin/bash
+#!/bin/bash
 find -empty -printf "%f\n"
