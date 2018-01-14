@@ -1,2 +1,6 @@
 #!/bin/bash
+<<<<<<< HEAD
 find ./ -type f -name '*.gif' -printf "%f\n" | sort | cut '.' -f1
+=======
+find ./ -name "*.gif" | sort | rev | cut -d '/' -f1 | rev | cut -d '.' -f3
+>>>>>>> 37127050579ecd89997477406bd5f417fc1bc0dc
