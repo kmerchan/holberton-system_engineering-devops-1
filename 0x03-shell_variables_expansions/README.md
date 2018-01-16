@@ -34,3 +34,7 @@ One combination per line
 The output should be alpha ordered, starting with aa
 Do not print oo
 Your script file should contain maximum 64 characters
+
+[13-print_float](./13-print_float) - Write a script that prints a number with two decimal places.
+The number will be stored in the environment variable NUM.
+
