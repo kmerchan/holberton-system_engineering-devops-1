@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Bash script to display string infinitely
+
+while true;
+do
+    trap "echo I am invicible!!!" SIGTERM
+    echo "To infinity and beyond"
+    sleep 2
+done
