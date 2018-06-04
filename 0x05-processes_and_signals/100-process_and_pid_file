@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Bash script to display string infinitely
+# copy current pid to file in /var/run
+echo $(pgrep -f '100-process_and_pid_file') > holbertonscript.pid
+sudo mv holbertonscript.pid /var/run
+while true;
+do
+    echo "To infinity and beyond"
+    trap "echo I hate the kill command; sudo rm /var/run/holbertonscript.pid; exit" SIGTERM
+    trap "echo Y U no love me?!" SIGINT
+done
