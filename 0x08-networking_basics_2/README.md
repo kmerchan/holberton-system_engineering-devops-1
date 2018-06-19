@@ -43,3 +43,6 @@ Requirements:
      Write a Bash script that displays all active IPv4 IPs on the machine
      it’s executed on.
 
+**4. Port listening on localhost**
+
+     Write a Bash script that listens on port 98 on localhost.
