@@ -15,7 +15,7 @@ At the end of this project you are expected to be able to explain, without the h
 	Typical geographical size
 
 **What is a WAN**
-	
+
 	Typical usage
 	Typical geographical size
 **What is the Internet**
@@ -59,4 +59,12 @@ At the end of this project you are expected to be able to explain, without the h
 	1. Alphabetically
 	2. From the lowest to the highest level
 	3. Randomly
+
+**1. Types of network**
+
+![](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/259/kbaNEA1.jpg)
+
+**2 MAC and IP address**
+
+![](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/259/YWtKMUr.jpg)
 
