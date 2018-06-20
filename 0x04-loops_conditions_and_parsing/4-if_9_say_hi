@@ -7,5 +7,5 @@ while ((i < 10)); do
 	echo "Hi"
     fi
     echo "Holberton School"
-      ((i++))
+     ((i++))
 done
