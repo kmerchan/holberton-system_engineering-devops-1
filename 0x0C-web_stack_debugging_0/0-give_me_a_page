@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# debug an apache server
+# debugging an apache server
 
-sudo service apache2 start
+sudo service apache2 restart
