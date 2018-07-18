@@ -1,10 +1,9 @@
-#!/usr/bin/env bash
-# bash script to replace line with multiple lines with sed
 sudo apt-get -y update && sudo apt-get install -y nginx
+sudo service nginx start
 
 #Change index.html to read "Holberton School"
 echo "Holberton School" | sudo tee /usr/share/nginx/html/index.html
 
-lines="location /redirect_me {\n\t\trewrite ^(.*)$ https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;\n\t}\n"
+lines="\\\tlocation /redirect_me {\n\t\t return 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;\n\t}\n"
 sudo sed -i "26i $lines" /etc/nginx/sites-available/default
-sudo service nginx start
+sudo service nginx restart
