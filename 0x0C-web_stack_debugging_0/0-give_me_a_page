@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 # debug an apache server
-sudo service apache2 restart
+
+sudo service apache2 start
