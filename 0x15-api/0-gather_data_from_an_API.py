@@ -8,13 +8,14 @@ user_id = argv[1]
 url = 'https://jsonplaceholder.typicode.com/users'
 user = re.get(url + '/{}'.format(user_id)).json()
 todo = re.get(url + '/{}/todos'.format(user_id)).json()
-completed = []
+complete = []
 
 for task in todo:
     if task.get('completed') is True:
-        completed.append(task.get('title'))
+        complete.append(task.get('title'))
 
 print('Employee {} is done with tasks({}/{}):'.format(user.get('name'),
-                                                len(completed), len(todo)))
-for task in completed:
+                                                      len(complete),
+                                                      len(todo)))
+for task in complete:
     print('\t{}'.format(task))
