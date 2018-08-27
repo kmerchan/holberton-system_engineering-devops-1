@@ -11,10 +11,11 @@ if __name__ == "__main__":
     url = 'https://jsonplaceholder.typicode.com/users'
     user = re.get(url + '/{}'.format(user_id)).json()
     todo = re.get(url + '/{}/todos'.format(user_id)).json()
+
     with open("{}.csv".format(user_id), 'w') as csvfile:
         fil = csv.writer(csvfile, quoting=csv.QUOTE_ALL)
         for task in todo:
-            fil.writerow([user_id,
+            fil.writerow([int(user_id),
                           user.get('name'),
                           task.get('completed'),
                           task.get('title')])
