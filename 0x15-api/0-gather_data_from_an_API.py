@@ -18,4 +18,4 @@ if __name__ == "__main__":
     print('Employee {} is done with tasks({}/{}):'.format
           (user.get('name'), len(complete), len(todo)))
     for task in complete:
-        print('\t{}'.format(task))
+        print('\t {}'.format(task))
