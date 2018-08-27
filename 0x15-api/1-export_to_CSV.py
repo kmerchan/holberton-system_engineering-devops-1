@@ -12,10 +12,10 @@ if __name__ == "__main__":
     user = re.get(url + '/{}'.format(user_id)).json()
     todo = re.get(url + '/{}/todos'.format(user_id)).json()
 
-    with open("{}.csv".format(user_id), 'w') as csvfile:
+    with open("{}.csv".format(user_id), 'w', newline='') as csvfile:
         fil = csv.writer(csvfile, quoting=csv.QUOTE_ALL)
         for task in todo:
-            fil.writerow([int(user_id),
-                          user.get('name'),
+            fil.writerow([user_id,
+                          user.get('username'),
                           task.get('completed'),
                           task.get('title')])
