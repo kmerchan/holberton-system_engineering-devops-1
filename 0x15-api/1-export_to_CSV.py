@@ -2,9 +2,9 @@
 # Python scipt to run Employee ID and return TODO list form REST API
 
 if __name__ == "__main__":
-    import requests as re
-    import json
     import csv
+    import json
+    import requests as re
     from sys import argv
 
     user_id = argv[1]
