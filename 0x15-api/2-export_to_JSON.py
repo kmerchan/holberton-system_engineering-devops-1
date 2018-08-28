@@ -16,7 +16,7 @@ if __name__ == "__main__":
         task_dict = {}
         task_dict['task'] = task.get('title')
         task_dict['completed'] = task.get('completed')
-        task_dict['username'] = task.get('username')
+        task_dict['username'] = user.get('username')
         task_list.append(task_dict)
     task_obj = {}
     task_obj[user_id] = task_list
