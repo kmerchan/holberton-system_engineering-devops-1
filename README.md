@@ -45,5 +45,5 @@ and more!
 8. [0x07-networking_basics](./0x07-networking_basics)
 
 ## Credits
-Work is owned and maintained by Adekunle Adeniran (`[@flourishcodes](https://twitter.com/flourishcodes)`).
+Work is owned and maintained by Adekunle Adeniran `[@flourishcodes](https://twitter.com/flourishcodes)`.
 Collaborators are acknowledged within each project
