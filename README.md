@@ -50,6 +50,8 @@ and more!
 * [0x14-mysql](./0x14-mysql)
 * [0x15-api](./0x15-api)
 * [0x16-api_advanced](./0x16-api_advanced)
+* [0x17-web_stack_debugging_3](./0x17-web_stack_debugging_3)
+* [0x18-webstack_monitoring](./0x18-webstack_monitoring)
 
 ## Credits
 Work is owned and maintained by Adekunle Adeniran [@flourishcodes](https://twitter.com/flourishcodes)
